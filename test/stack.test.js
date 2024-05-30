@@ -1,3 +1,7 @@
+import Stack from '../Stack.js';
+//const assert = require('assert')
+
+
 describe("Using a stack", function(){
 
     it("you should be able to push and pop 1 value", function (){
