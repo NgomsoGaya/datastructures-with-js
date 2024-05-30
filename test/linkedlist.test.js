@@ -1,3 +1,6 @@
+import LinkedList from ('../LinkedList.js')
+const assert = require('assert')
+
 describe("Using a LinkedList", function(){
 
     it("you should be able to add 1 value to a linked list", function (){
