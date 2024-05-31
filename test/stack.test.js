@@ -1,5 +1,3 @@
-import Stack from '../Stack.js';
-//const assert = require('assert')
 
 
 describe("Using a stack", function(){

@@ -1,5 +1,4 @@
-import Queue from '../Queue.js';
-//const assert = require('assert')
+
 
 
 describe("Using a queue", function(){

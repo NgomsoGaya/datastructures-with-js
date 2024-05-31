@@ -1,4 +1,4 @@
-import Node from './node.js'
+//import Node from './node.js'
 
 function LinkedList() {
 	let startNode = null;
@@ -68,4 +68,4 @@ function LinkedList() {
 	}
 }
 
-export default LinkedList;
+//export default LinkedList;

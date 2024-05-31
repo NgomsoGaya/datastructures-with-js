@@ -11,32 +11,22 @@ function Queue() {
         }
         return queue.shift();
     }
-
-    function peek() {
-        if (queue.length === 0) {
-            return null; // or throw an error if you prefer
-        }
-        return queue[0];
-    }
-
-    function isEmpty() {
-        return queue.length === 0;
-    }
-
-    function size() {
-        return queue.length;
-    }
+	function pop() {
+		if (queue.length === 0) {
+			return null; // or throw an error if you prefer
+		}
+		return queue.pop();
+	}
+    
 
     return {
         enqueue,
         dequeue,
-        peek,
-        isEmpty,
-        size
+		pop
     }
 }
 
-export default Queue;
+//export default Queue;
 
 
 // const queue = Queue();
